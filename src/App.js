@@ -3,13 +3,14 @@ import './App.css';
 
 function App() {
   const greeting = "Это тестовый проект ФИО";
+  const name = "Иванов Иван Иванович";
 
   console.log('This is App ');
   return (
     <div className="App">
      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-         {greeting}
+         {name}
       </header>
     </div>
   );
